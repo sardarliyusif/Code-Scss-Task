@@ -1,0 +1,9 @@
+@mixin card--size{
+    width: 22%;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+}

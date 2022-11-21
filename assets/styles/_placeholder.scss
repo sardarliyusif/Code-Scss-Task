@@ -1,0 +1,29 @@
+// CONTAINER
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+// FLEX PROPERTY
+.f-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.f-d-column{
+    flex-direction: column;
+}
+//POSITION
+.p-relative{
+    position: relative;
+}
+.card__part--size{
+    height: 50%;
+}
+.card__part__img{
+    width: 100%;
+    height: auto;
+}

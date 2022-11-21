@@ -1,0 +1,21 @@
+.card__part__head{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+.card__part__price--now{
+    color: #212529;
+    margin: 0 3px;
+}
+.card__part__price--previous{
+    text-decoration: line-through;
+    color: #6c757d;
+    margin: 0 3px;
+}
+.star-group{
+    text-align: center;
+    color: orange;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+}

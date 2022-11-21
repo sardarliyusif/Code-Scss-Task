@@ -1,0 +1,20 @@
+@import './reset';
+@import './placeholder';
+@import './button';
+@import './typography';
+@import './mixins';
+// CARD
+.cards{
+    gap: 2rem;
+    align-items: stretch;
+    .card{
+        @include card--size;
+        .second-part{
+            padding-bottom: 1rem;
+            .card__part__info{
+                padding-top: 1rem;
+                padding-bottom: 2rem;
+            }
+        } 
+    }
+}
